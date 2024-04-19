@@ -1,5 +1,4 @@
 <h1 align="center">Diet Recommendation System</h1>
-<div align= "center"><img src="Assets/logo_img1.jpg" />
   <h4>A diet recommendation web application using content-based approach with Scikit-Learn, FastAPI and Streamlit.</h4>
 </div>
 
