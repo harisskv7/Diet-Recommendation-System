@@ -5,11 +5,6 @@
 
 # Diet-Recommendation-System
 
-## :bookmark_tabs:Table of contents
-* [General info](#general-info)
-* [Development](#development)
-* [Technologies](#technologies)
-* [Setup](#setup)
 
 ## :scroll: General info
 ### Model developement
@@ -24,17 +19,6 @@ The application is built using the FastAPI framework, which allows for the creat
 
 The application's front-end is made with Streamlit. Streamlit is an open source app framework in Python language. It helps to create web apps for data science and machine learning in a short time. It is compatible with major Python libraries such as scikit-learn, Keras, PyTorch, SymPy(latex), NumPy, pandas, Matplotlib etc. For our case the front-end is composed of three web pages. The main page is Hello.py which is a welcoming page used to introduce you to my project. The side bar on the left allows the user to navigate too the automatic diet recommendation page and the custom food recommendation page. In the diet recommendation page the user can fill information about his age,weight,height.. and gets a diet recommendation based on his information. Besides, the custom food recommendation allows the user to specify more his food preferency using nutritional values.
 
-### Run it locally
-#### Clone the repo
-```
-$ git clone https://github.com/zakaria-narjis/Diet-Recommendation-System
-```
-### docker-compose
-In the project root run:
-```
-$ docker-compose up -d --build
-```
-Then open http://localhost:8501 and enjoy :smiley:.
 
 PS: You should have docker and docker-compose already installed
 ### Use the hosted version on Streamlit Cloud
